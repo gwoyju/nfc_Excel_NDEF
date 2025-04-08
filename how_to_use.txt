@@ -4,5 +4,14 @@ https://www.python.org/
 安裝依賴
 pip install pyinstaller nfcpy openpyxl
 
+Windows 需要安裝額外的驅動
+1.下載 Zadig
+https://zadig.akeo.ie/
+
+2.插入你的 ACR122U
+在 Zadig 中選擇 ACS ACR122U PICC Interface
+
+3.驅動選擇 WinUSB，然後點 Replace Driver
+
 執行
 python nfc_gui_writer_multilang.py
