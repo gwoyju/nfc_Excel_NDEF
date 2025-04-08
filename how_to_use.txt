@@ -1,0 +1,8 @@
+安裝 Python 3.10+ for Windows（64-bit）
+https://www.python.org/
+
+安裝依賴
+pip install pyinstaller nfcpy openpyxl
+
+執行
+python nfc_gui_writer_multilang.py
